@@ -1,3 +1,6 @@
+deployment: 
+[![Build status](https://ci.appveyor.com/api/projects/status/qrqnujrxbtxhr4sp?svg=true)](https://ci.appveyor.com/project/EvgeniyPryanichnikov/ra-films)
+
 Рейтинг фильмов
 ===
 
