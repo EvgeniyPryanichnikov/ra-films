@@ -1,6 +1,6 @@
 image: Ubuntu2004  # образ для сборки
 
-stack: node 19  # окружение
+stack: node 19  # окружени
 
 branches:
   only:
@@ -21,4 +21,4 @@ deploy_script:  # скрипт развёртывания
   - git config --global user.name EvgeniyPryanichnikov
   - git config --global user.email luriro07@icloud.com
   - echo "https://$GITHUB_TOKEN:x-oauth-basic@github.com">"$HOME/.git-credentials"
-  - npx push-dir --dir=build --branch=gh-pages --force --verbose
+  - npx push-dir --dir=dist --branch=gh-pages --force --verbose
